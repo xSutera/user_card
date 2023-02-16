@@ -1,0 +1,35 @@
+.main{
+    min-height: 300px;
+    margin: 25px auto;
+    width: 750px;
+
+    background-color: lightgray;
+}
+
+.bar{
+    background-color: rgb(105, 159, 230);
+    min-height: 125px;
+    position: relative;
+}
+.box{
+    background-color: white;
+    margin: 5px;
+}
+.img{
+    width: 75px;
+    top: 85px;
+    left: 40px;
+    position: absolute;
+}
+.img-2{
+    width: 30px;
+    height: 40px;
+}
+.parent{
+    display: flex;
+    align-items: center;
+}
+.button{
+    font-size: 20px;
+    align-items: center;
+}
